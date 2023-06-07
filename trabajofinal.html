@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #a4a4b6;
+  color: rgb(0, 0, 0);
+}
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #ffffff;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/640px-Flag_of_Italy.svg.png");
+}
+.header h1 {
+  font-size: 50px;
+}
+.header:hover {
+  background-color: #333;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0%;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(0, 0, 0);
+}
+.leftcolumn {  
+  float: left;
+  width: 75%;
+  padding:0%;
+}
+.rightcolumn {
+  float: left;
+  width: 25%;
+
+  padding-left: 20px;
+}
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.card {
+  background-color: rgb(122, 112, 143);
+  padding: 20px;
+  margin-top: 20px;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(122, 112, 143);
+  margin-top: 20px;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {  
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+.imagen1 {
+  float: right;
+  border-image-outset: 1;   
+}
+.h1 {
+    color: black;
+}
+}
+</style>
+ </head>
+   <body>
+
+<div class="header">
+  <h1>Información para un viaje a Italia</h1>
+  <p>Asrat Valls</p>
+</div>
+
+<div class="topnav">
+  <a href="#información">Información</a>
+  <a href="#lugares-visitar">Lugares para visitar</a>
+  <a href="#videos">Videos</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h3 id="información"></h3>
+      <h2>INFORMCIÓN</h2>
+      <br> <p> <strong> Italia </strong> es un país europeo con una larga costa mediterránea,<br>
+        influyó considerablemente en la cultura y la cocina occidental. <br>
+Su capital, Roma, es hogar del Vaticano, de ruinas antiguas y de obras de arte emblemáticas. <br>
+<br>
+Otras ciudades importantes son <strong> Florencia </strong>, con obras maestras del renacimiento, <br>
+como el "David" de Miguel Ángel y el Domo de Brunelleschi; Venecia, la ciudad de los canales; y Milán, la capital italiana de la moda. Primera ministra: <em> Giorgia Meloni Tema del momento </em> <br> </p>
+<ul>
+    <span>
+  <li> <em> Capital:</em> Roma </li> <br>
+  <li> <em> Superficie:</em> 302.073 km² </li> <br>
+  <li> <em> Población:</em> 59,11 millones (2021) Banco Mundial </li> <br>
+  <li> <em> Idioma oficial:</em> Italiano </li> <br>
+  <li> <em> Provincias:</em> Bolzano, Matera, Varese, Ascoli Piceno, Milán... </li> <br> </span>
+ 
+  <div class="imagen1">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"height="200"> </div>
+  </ul>
+  <p> <strong> La mejor época para visitar Italia es en: </strong> <p> <ol>
+  <li>Primavera, de abril a junio </li><br>
+  <li>En otoño, entre septiembre y octubre.</lI><br>
+  </ol>
+ 
+    <p>El otoño también se llena de glamour con los festivales de cine de Venecia y Roma, y es un buen momento para visitar las playas del sur y disfrutar de los últimos coletazos del verano.
+    </p>    
+</div>
+    <h3 id="lugares-visitar"></h3>
+    <div class="card">
+      <h2>LUGARES PARA VISITAR</h2>
+      <ul>
+        <li> Roma </li> <br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Roma_dall%27aereo.JPG" height="250" >
+        <li> Milán </li> <br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Milan_Italy.jpg/1024px-Milan_Italy.jpg" height="250" >
+        <li> Venecia </li> <br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Venezia_veduta_aerea.jpg" height="250"> </ul>
+        <h3 id="videos"></h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/srk7w1PifI0?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5twZobM52rM?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+  </div>
+ 
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Últimas noticias de Italia</h2>
+  <ul>
+    <li>
+      <a href="https://www.europapress.es/temas/italia/">Italia Hoy</a> </li>
+    <li> <a href="https://www.20minutos.es/minuteca/italia/">20 Minutos</a> </li>
+    <li> <a href="https://elpais.com/noticias/italia/">El Pais</a> </li>
+    <li> <a href="https://www.elmundo.es/internacional/italia.html">El Mundo</a> </li>
+    </ul>
+    </div>
+    <div class="card">
+      <h2>Más Información sobre Italia</h2>
+      <ul>
+        <li>
+         <a href="https://es.wikipedia.org/wiki/Italia"> Italia en Wikipedia </a> </li>
+             <li> <a href="https://www.italia.it/es"> Web Oficial de Italia </a> </li> </ul>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+ 
+  <a href="https://twitter.com/Italia"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/1245px-Logo_of_Twitter.svg.png" height="70">
+  <a href="https://www.youtube.com/watch?v=5twZobM52rM="><img src="https://cdn-icons-png.flaticon.com/512/174/174883.png" height="70">
+  <a href="https://instagram.com/italia?igshid=YmMyMTA2M2Y="><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/800px-Instagram-Icon.png" height="70">
+  <a href="https://m.facebook.com/Italia.azzurri/?locale=es_LA"><img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" height="70">
+</div>
+
+</body>
+</html>
